@@ -7,6 +7,7 @@ body {
   font-style: "Regular";
   padding: 0;
   margin: 0;
+  overflow: auto;
 }
 body .main .container .header {
   height: 213px;
@@ -38,8 +39,7 @@ body .main .container .menu .title {
 body .main .container .menu .subtitle {
   font-weight: 400;
   font-size: 18px;
-  width: 423px !important;
-  margin-left: 400px;
+  width: 100%;
   line-height: 27px;
   margin-bottom: 0 !important;
 }
@@ -64,7 +64,6 @@ body .main .container .menu .name img {
 }
 body .main .container .menu .button-menu {
   text-align: center !important;
-  display: inline-block;
   display: inline-flex;
   background: #1D4169;
   min-width: 240px;
@@ -74,12 +73,13 @@ body .main .container .menu .button-menu {
 }
 body .main .container .menu .button-menu a {
   text-decoration: none;
-  margin: 16px 31px 17px 28px;
+  display: inline-flex;
+  margin: 16px 0 17px 28px;
   color: #FFFFFF;
   font-size: 18px;
 }
 body .main .container .menu .button-menu img {
-  margin: 20px;
+  margin-left: 27px;
 }
 body .main .container .footer {
   display: flex;

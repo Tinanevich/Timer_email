@@ -56,8 +56,7 @@ body {
         .subtitle {
           font-weight: 400;
           font-size: $font-size-text;
-          width: 423px !important;
-          margin-left: 400px;
+          width: 100%;
           line-height: 27px;
           margin-bottom: 0 !important;
         }
@@ -87,7 +86,6 @@ body {
 
         .button-menu {
           text-align: center !important;
-          display: inline-block;
           display: inline-flex;
           background: $background-color;
           min-width: 240px;
@@ -97,12 +95,13 @@ body {
 
           a {
             text-decoration: none;
-            margin: 16px 31px 17px 28px;
+            display: inline-flex;
+            margin: 16px 0 17px 28px;
             color: $color-background;
             font-size: $font-size-text;
           }
           img {
-            margin: 20px;
+            margin-left: 27px;
           }
         }
       }
